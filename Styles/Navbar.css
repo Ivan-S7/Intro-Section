@@ -1,0 +1,205 @@
+.navbar-container{
+    background-color: hsl(0, 0, 41%);
+}
+
+.inline-menu{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0 15px;
+}
+.icon{
+    height: 18px;
+
+}
+
+
+.company-li{
+    padding-left: 15px;
+    
+}
+
+.left-side{
+    padding-right: 30px;
+}
+
+.register-item{
+    border: solid black 1px;
+    border-radius: 10px;
+}
+
+
+
+/* -----------------------------------responsive------------------------------------------------------------ */
+
+
+
+@media screen and (max-width: 450px) {
+    .navbar-container{
+        
+        max-width: 100%;
+        overflow: hidden;
+        
+    }
+
+    .bi-list{
+        font-size: 30px;
+    }
+
+
+
+
+
+
+    /* -------------------------------------offcanvas------------------------------------------------- */
+    
+    .offcanvas-body{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 30px;
+        width: 100%;
+        
+        
+    }
+    
+    .first-element{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .boton-offcanvas{
+        background-color: hsl(0, 0, 41%);
+        
+    }
+
+    .btn-color{
+        color: gray;
+        
+        padding: 0;
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    #offcanvasRight{
+        
+        width: 65%;
+    }
+
+    .offcanvas-end{
+       
+        
+        display: flex;
+        flex-direction: column;
+    }
+
+    a{
+        text-decoration: none;
+        font-size: 18px;
+        margin-bottom: 5px;
+        
+        color: gray;
+    }
+    
+    li{
+        list-style: none;
+    }
+
+   
+
+    .card-body{
+        border: none;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 0;
+        
+        
+    }
+
+    .feature-arrow-down, .feature-arrow-up{
+        
+        width: 15px;
+        margin-left: 7px;
+    }
+
+    .arrowCompanyDown, .arrowCompanyUp{
+        width: 15px;
+        margin-left: 7px;
+    }
+
+   
+
+    /* .mobile-list{
+        background-color: aqua;
+    } */
+
+    .feature-icon{
+        margin-right: 10px;
+    }
+
+    .feature-li:not(:last-child){
+        margin-bottom: 5px;
+        
+    }
+
+    .offcanvas-link{
+        
+        display: flex;
+        justify-content: flex-start;
+        
+    }
+
+    /* ----------------------------Login / Register----------------------------------------------- */
+    
+    
+    .second-element{
+        
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: 20px;
+        
+    }
+
+    .user-options{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .user-ul{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .user-li{
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .register{
+        border: 1px solid black;
+       border-radius: 30px;
+        width: 200px;
+        padding: 10px 20px 10px 20px;
+        
+    }
+
+    
+    
+}

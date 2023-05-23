@@ -1,0 +1,297 @@
+
+/* .section-container{
+    
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: column-reverse;
+    
+} */
+
+.section-row{
+    height: 100vh;
+    width: 100%;
+    
+    
+    
+    
+   
+    
+    
+    
+}
+
+/* ----------------------------------------info-container---------------------------------------------- */
+.info-div{
+    /* background-color: aqua; */
+    padding: 90px 10px 10px 180px;
+    
+}
+
+/* -----------------------title-container---------------- */
+
+.title-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 35px;
+    
+    width: 100%;
+    
+    
+}
+
+h1{
+    font-size: 75px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.make{
+    margin-bottom: 0;
+}
+
+.remote-work{
+    display: inline-block;
+}
+
+/* ------------------------text-container---------------- */
+
+.text-container{
+    margin-bottom: 12px;
+    
+    width: 450px;
+    
+}
+
+p{
+    margin-bottom: 0;
+    font-size: 18px;
+    color: hsl(0, 0%, 41%);
+}
+
+
+/* --------------------button-container-------------- */
+
+.button-container{
+    margin-top: 25px;
+    
+}
+
+/* --------------------brands-container-------------- */
+
+.brands-container{
+    margin-top: 75px;
+    
+    width: 100%;
+    display: flex;
+    
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.brand-img{
+    
+    width: 90px;
+}
+
+.brand-img:not(:first-child){
+    margin-left: 35px;
+    
+}
+/* ------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------img-container-------------------------------------------- */
+.hero-img-container{
+    padding: 25px 45px 50px 155px;
+    
+    
+}
+
+.hero-img{
+    object-fit: cover;
+    height: 80vh;
+   
+}
+
+/* ------------ */
+/* --------------------------------------------- */
+/* ---------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+
+/* ---------------------------------responsive----------------------------------------------------------- */
+@media screen and (max-width:450px) {
+    
+    .section-container{
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+        
+        
+        padding: 0;
+        padding-top: 0px;
+        margin: 0;
+       
+        
+        
+        /* background-color: aqua; */
+        padding: 0px;
+        min-height: 100vh;
+        max-width: 100%;
+    }
+
+    .section-row{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        min-height: 90vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+
+
+    .hero-img-container{
+        padding: 0px;
+        margin: 0px auto;
+        height: 40%;
+        width: 100%;
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        
+        flex-direction: column;
+        
+    }
+
+    .hero-img{
+        
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        width: fit-content;
+    }
+
+
+
+
+
+    
+    .info-div{
+        padding: 0;
+        width: 100%;
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+        height: 60%;
+       
+        
+        
+        
+        
+    }
+
+    
+
+    .title-container{
+        
+        
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        margin-top: 25px;
+        margin-bottom: 15px;
+        
+    }
+    
+    h1{
+        font-size: 25px;
+        font-weight: bold;
+        margin-top: 0;
+        display: flex;
+        align-items: center;
+    }
+    
+    .make{
+        margin-bottom: 0;
+        display: flex;
+        align-items: center;
+    }
+    
+    /* ------------------------text-container---------------- */
+    
+    .text-container-mobile{
+        margin-bottom: 0px;
+        
+        max-width: 100%;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 35px;
+        overflow: hidden;
+        
+        
+    }
+    
+    .text-p{
+        margin-bottom: 0;
+        font-size: 17px;
+        
+        color: hsl(0, 0%, 41%);
+    }
+    
+    
+    /* --------------------button-container-------------- */
+    
+    .button-container{
+        display: flex;
+        margin-top: 0;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 45px;
+        
+        max-width: 100%;
+        padding: 0 15px;
+        
+    }
+    
+    /* --------------------brands-container-------------- */
+    
+    .brands-container{
+       margin: 0;
+        
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        
+        padding: 0 10px;
+    }
+    
+    .brand-img{
+        
+        width: 50px;
+    }
+    
+    .brand-img:not(:first-child){
+        margin-left: 35px;
+        
+    }
+
+
+ /*--------------------------------------------Off Canvas------------------------------------------*/
+    
+
+
+
+    
+}
