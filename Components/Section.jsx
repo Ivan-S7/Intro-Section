@@ -19,7 +19,7 @@ function Section() {
         <div className="row section-row ">
           {/* ----------------------------------- */}
           
-            
+            {/* --------------left side of grid ------------------------------*/}
             <div className=" col-12 col-md-6 info-div">
               <div className='d-sm-none title-container'>
                 <h1 className="title">Make remote work</h1>
@@ -35,7 +35,7 @@ function Section() {
 
             <div className="text-container d-none d-sm-flex">
               <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar</p>
-              {/* <p>Streamline processes, create team rituals, and watch productivity soar</p> */}
+              
             </div>
 
             <div className="button-container">
@@ -51,6 +51,8 @@ function Section() {
             
           </div>
 
+
+          {/* -------------------------Grid right side--------------------- */}
           <div className="col-12 col-md-6 hero-img-container">
             
             <img className="hero-img d-none d-sm-flex " src={heroimg} alt="hero-img" />
